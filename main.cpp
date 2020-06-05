@@ -61,7 +61,7 @@ bool CircleDist(int color,int maxDist,int minDist,int distX,int x, int y,int scr
 int main()
 {
     Image image; //создаем объект Image (изображение)
-    image.loadFromFile("l.jpg");
+    image.loadFromFile("l.jpg");//Image name
     int x = image.getSize().x;
     int y = image.getSize().y;
  //   std::vector<std::vector<std::vector<int>>> g (x);
